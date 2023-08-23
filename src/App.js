@@ -1,23 +1,21 @@
-import logo from './logo.svg';
 import './App.css';
+
+import LandingPage from './sections/LandingPage/LandingPage';
+import Benifits from './sections/Benifits/BenifitsPage'
+import BenifitsPage2 from './sections/Benifits2/BenifitsPage2';
+import LinkSection from './sections/LinksSection/LinksSection';
+import Footer from './sections/Footer/Footer';
+
+import styles from './App.module.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className={styles.container}>
+      <LandingPage />
+      <Benifits />
+      <BenifitsPage2 />
+      <LinkSection />
+      <Footer />
     </div>
   );
 }

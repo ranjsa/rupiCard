@@ -1,0 +1,109 @@
+.rewardsContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+.rewardsTextWrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.rewardsText1 {
+    margin: 20vh;
+    color: black;
+    font-size: 2.5rem;
+    width: 45%;
+    line-height: 2.7rem;
+    text-align: center;
+    font-weight: 500;
+}
+
+.rewardsText1 span {
+    color: #65ECD8;
+}
+
+.disclaimerContainer{
+    width: 100%;
+    height: 20vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .disclaimerText{
+    width: 30%;
+    font-size: 0.8rem;
+    line-height: 1.4rem;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.8);
+  }
+
+  .bankPartnerText{
+    width: 27%;
+    line-height: 1.4rem;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.6);
+  }
+
+  .commitmentContainer{
+    height:70vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(34, 38, 39, 0.7);
+    row-gap: 3.7vh;
+  }
+
+  .commitmentContainer img {
+    height: 20vh;
+    width: 20vh;
+    object-fit: contain;
+  }
+
+  .commitmentText{
+    width: 60%;
+    line-height: 3rem;
+    text-align: center;
+    font-size: 3rem;
+  }
+  .commitmentText span{
+    background:  linear-gradient(140.86deg, #65ECD8 11.07%, #FDEF78 80.28%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .addedBenefitsContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 70%;
+    margin-bottom: 10vh;
+  }
+
+  .advantagesWrapper{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .cicleContainer{
+    display: block;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 395%;
+  }
+  .cicleContainer img{
+    position: absolute;
+  
+    height: 130vh;
+    width: 130vh;
+    object-fit: contain;
+  }
